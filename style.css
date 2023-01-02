@@ -1,0 +1,71 @@
+
+body{
+    background-color:#ff0055;
+    height: 900px;
+    animation-name:bo;
+    animation-duration:5s;
+    animation-iteration-count: infinite;  
+}
+@keyframes bo{
+    0%{
+        background-color:#ff4800;
+     }
+     15%{
+       background-color:#ff0055;
+     }
+     25%{
+       background-color:#ff4800;
+     }
+     35%{
+       background-color:#ff0055;
+     }
+     60%{
+       background-color:#ff4800;
+     }
+     70%{
+       background-color:#ff0055;
+     }
+}
+.container{
+    text-align: center;
+    font-size:65px;
+    animation-name:mov;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+}
+@keyframes mov{
+    0%{
+        color:#1900ff;
+     }
+     15%{
+       color:#ff0000;
+     }
+     25%{
+       color:green;
+     }
+     35%{
+       color:#eeff00;
+     }
+     60%{
+       color:#2f00ff;
+     }
+     70%{
+       color:#ff0055;
+     }
+    }
+details{
+    text-align: center;
+    font-size:25px;
+    color:black;
+    
+}
+#im2{
+    float:left;
+    
+}
+
+#im1{
+
+    display: flex;
+    margin: auto;
+}
